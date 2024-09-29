@@ -1,0 +1,47 @@
+.mainRegContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #28282B;
+    padding: 30px;
+}
+
+.heading{
+    font-size: 33px;
+    background: -webkit-linear-gradient(#ADD8E6, #96DED1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.data_container{
+    border:1px solid #FFFFF0;
+    padding: 40px;
+    border-radius: 8px;
+    color: white;
+}
+
+
+.address{
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.button1{
+    margin-top: 20px;
+    padding: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: #0275d8;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+    gap: 10px;
+}

@@ -1,0 +1,48 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: left;
+    padding: 30px;
+    background-color: #28282B;
+    color: #EDEADE;
+}
+
+.title{
+    font-size: 33px;
+    background: -webkit-linear-gradient(#ADD8E6, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.data{
+    padding-top: 50px;
+    font-size: 18px;
+}
+
+.para1{
+    margin-bottom: 2px;
+    
+}
+
+.para2{
+    margin-top: 5px;
+}
+
+.button{
+    margin-top: 20px;
+    padding: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: #0275d8;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+.input{
+    height: 12px;
+    width: 150px;
+    padding: 3px;
+    padding-left: 10px;
+}
